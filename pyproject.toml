@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "eli"
-version = "0.1.1a1"
+version = "0.2.0"
 readme = "README.md"
 homepage = "https://github.com/shawwn/eli"
 description = "Emacs Lisp runtime interface for Python"
