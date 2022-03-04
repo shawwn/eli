@@ -1,1 +1,4 @@
-__version__ = "0.1.1a1"
+# read version from installed package
+from importlib.metadata import version
+__version__ = version(__name__)
+del version
