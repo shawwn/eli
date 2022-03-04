@@ -7,6 +7,9 @@ def path(to):
 
 exec(compile(open(path("setup_info.py")).read(), path("setup_info.py"), "exec"))
 
+package_dir = \
+{'': 'src'}
+
 packages = \
 ['eli']
 
